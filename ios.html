@@ -1,1 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZONEBLOCK - Download APK</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Retro / Pixel font style -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0f172a;
+            /* Subtle blue dot grid background pattern */
+            background-image: radial-gradient(#3b82f6 0.75px, transparent 0.75px), radial-gradient(#3b82f6 0.75px, #0f172a 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
+        }
+        .pixel-font {
+            font-family: 'Press Start 2P', monospace;
+        }
+        /* Retro drop shadow box style */
+        .retro-box {
+            box-shadow: 6px 6px 0px #1e3a8a;
+            border: 3px solid #3b82f6;
+        }
+        .retro-btn {
+            box-shadow: 4px 4px 0px #1e3a8a;
+            transition: all 0.1s ease;
+        }
+        .retro-btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px #1e3a8a;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-slate-100 flex flex-col justify-between p-4 selection:bg-blue-500 selection:text-white">
+
+    <!-- Top Badge / Est -->
+    <div class="w-full flex justify-between items-center max-w-4xl mx-auto pt-4 px-2">
+        <div class="bg-blue-950 border-2 border-blue-500 px-3 py-1.5 text-xs pixel-font text-blue-300 retro-btn">
+            [ VER. 1.0 ]
+        </div>
+        <div class="bg-blue-950 border-2 border-blue-500 px-3 py-1.5 text-xs pixel-font text-blue-300 retro-btn">
+            EST. 2026
+        </div>
+    </div>
+
+    <!-- Main Center Retro Dialog Box -->
+    <main class="flex-grow flex items-center justify-center px-4 py-8">
+        <div class="max-w-md w-full bg-slate-900/95 retro-box p-6 sm:p-8 text-center relative rounded-none">
+            
+            <!-- Cute Pixel Art / ASCII Style Graphic Header -->
+            <div class="text-blue-400 pixel-font text-xs sm:text-sm leading-relaxed mb-6 select-none">
+                <span class="inline-block animate-bounce"> /\_/\ </span><br>
+                <span>( o.o )</span><br>
+                <span> > ^ < </span><br>
+                <span class="text-xs text-blue-500/80">~ * ~ * ~</span>
+            </div>
+
+            <!-- Title -->
+            <h1 class="pixel-font text-sm sm:text-base text-blue-400 mb-3 tracking-wide">
+                WELCOME
+            </h1>
+
+            <p class="text-slate-300 text-xs sm:text-sm mb-8 font-medium">
+                step inside i have something for you.
+            </p>
+
+            <!-- Download Button (Styled exact to request: blue theme) -->
+            <a href="ZONEBLOCK.ipa" 
+               download="ZONEBLOCK.ipa"
+               class="w-full inline-flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-6 retro-btn border-2 border-blue-400 text-xs sm:text-sm pixel-font">
+                <i class="fa-solid fa-download"></i>
+                <span>[ DOWNLOAD APK ]</span>
+            </a>
+
+            <!-- Footer divider dots inside box -->
+            <div class="mt-8 text-blue-500 text-xs pixel-font tracking-widest">
+                ~ * ~ * ~
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Bottom Special Tag -->
+    <div class="max-w-4xl mx-auto pb-4 px-2 w-full flex justify-start">
+        <div class="bg-blue-950 border-2 border-blue-500 px-3 py-1.5 text-[10px] sm:text-xs pixel-font text-blue-300 retro-btn">
+            • SPECIAL FOR YOU
+        </div>
+    </div>
+
+</body>
+</html>
