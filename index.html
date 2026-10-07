@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZONEBLOCK - Download APK</title>
+    <title>ZONEBLOCK - Download App</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -65,20 +65,44 @@
                 WELCOME
             </h1>
 
-            <p class="text-slate-300 text-xs sm:text-sm mb-8 font-medium">
+            <p class="text-slate-300 text-xs sm:text-sm mb-6 font-medium">
                 step inside i have something for you.
             </p>
 
-            <!-- Download Button (Styled exact to request: blue theme) -->
-            <a href="https://raw.githubusercontent.com/kianluppoy8-sys/contactless-photobooth/refs/heads/main/ZONEBLOCK.apk" 
-               download="ZONEBLOCK.apk"
-               class="w-full inline-flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-6 retro-btn border-2 border-blue-400 text-xs sm:text-sm pixel-font">
-                <i class="fa-solid fa-download"></i>
-                <span>[ DOWNLOAD APK ]</span>
-            </a>
+            <!-- Download Buttons Container -->
+            <div class="space-y-4">
+                <!-- Android APK Button -->
+                <a href="https://raw.githubusercontent.com/kianluppoy8-sys/contactless-photobooth/refs/heads/main/ZONEBLOCK.apk" 
+                   download="ZONEBLOCK.apk"
+                   class="w-full inline-flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 retro-btn border-2 border-blue-400 text-[11px] sm:text-xs pixel-font">
+                    <i class="fa-solid fa-download"></i>
+                    <span>[ DOWNLOAD APK ]</span>
+                </a>
+
+                <!-- iOS IPA Button -->
+                <a href="blob:https://github.com/9cdc90ca-0b86-48fb-b31b-81ac3779e852" 
+                   download="ZONEBLOCK.ipa"
+                   class="w-full inline-flex items-center justify-center space-x-2 bg-blue-700 hover:bg-blue-600 text-white font-bold py-3 px-4 retro-btn border-2 border-blue-400 text-[11px] sm:text-xs pixel-font">
+                    <i class="fa-solid fa-apple"></i>
+                    <span>[ DOWNLOAD IPA FILES ]</span>
+                </a>
+            </div>
+
+            <!-- iOS Sideload Instructions -->
+            <div class="mt-6 text-left bg-slate-950 border border-blue-500/50 p-3 text-slate-300 text-[11px] space-y-2">
+                <p class="pixel-font text-[10px] text-blue-400 mb-1">iOS Installation Guide:</p>
+                <ol class="list-decimal list-inside space-y-1 text-slate-300">
+                    <li>Download the <code class="text-blue-400">.ipa</code> file.</li>
+                    <li>Go to <a href="https://domcos.com/" target="_blank" class="text-blue-400 underline hover:text-blue-300">domcos.com</a> and find <strong>"Sideload & Direct Sign .IPA"</strong>.</li>
+                    <li>Upload your downloaded <code class="text-blue-400">ZONEBLOCK.ipa</code> file and click <strong>upload and sign</strong>.</li>
+                    <li>Once finished, click <strong>"TAP to sideload now"</strong>.</li>
+                    <li>When the prompt says: <span class="italic text-blue-300">"DOMCOS would like to open ZONEBLOCK WOULD YOU LIKE TO OPEN THIS APP"</span>, click <strong>launch</strong>.</li>
+                    <li>When asked <span class="italic text-blue-300">"open in ZONEBLOCK?"</span>, click <strong>open</strong>.</li>
+                </ol>
+            </div>
 
             <!-- Footer divider dots inside box -->
-            <div class="mt-8 text-blue-500 text-xs pixel-font tracking-widest">
+            <div class="mt-6 text-blue-500 text-xs pixel-font tracking-widest">
                 ~ * ~ * ~
             </div>
 
